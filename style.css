@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;500&display=swap');
 
 
-body {
-  box-sizing: border-box;
-}
+
 
 header {
   width: 375px;
@@ -12,8 +10,9 @@ header {
   justify-content: space-between;
   position: relative;
 }
-.image1 {
-  
+
+.menuimg{
+  padding-right: 1rem;
 }
 
 .whoiam {
@@ -72,10 +71,45 @@ h1 {
 }
 
 .image22 {
-  
-  background-repeat: no-repeat;
+  width: 375px;
   background-size: cover;
   position: absolute;
   margin-top: 1.5rem;
   left: 0;
+}
+.image2 {
+  width: 375px;
+}
+
+@media screen and (min-width:48rem){
+  
+  header {
+  width: 96%;
+}
+  .whoiam {
+  width: 100%;
+  flex:1 1 80%;
+}
+  .profession {
+  width: 100%;
+ 
+}
+
+.collab {
+  width: 95%;
+  height: 50px;
+}
+.image2 {
+  width: 100%;
+  background-size: cover;
+  position: absolute;
+  margin-top: 1.5rem;
+  
+}
+
+.image22 {
+  width: 100%;
+  
+}
+
 }
