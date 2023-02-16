@@ -79,11 +79,11 @@ h1 {
 .collab:hover {
   background: #fff;
   color: #1a2236;
-  border: 1px solid #1A2236;
+  border: 1px solid #1a2236;
 }
 
 .collab:checked {
-  border: 2px solid #1A2236;
+  border: 2px solid #1a2236;
   background: #fff;
 }
 
@@ -122,8 +122,8 @@ h1 {
     position: absolute;
     margin-top: 1.5rem;
   }
-  
+
   .image2 {
-    width: 100%; 
+    width: 100%;
   }
 }
