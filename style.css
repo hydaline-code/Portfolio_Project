@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;500&display=swap");
 
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 header {
   width: 375px;
   display: flex;
@@ -8,8 +13,13 @@ header {
   position: relative;
 }
 
-.menuimg {
-  padding-right: 1rem;
+header > div {
+  background-size: contain;
+}
+
+nav {
+  margin-top: 2rem;
+  margin-right: 0.5rem;
 }
 
 .whoiam {
@@ -66,9 +76,19 @@ h1 {
   text-align: center;
 }
 
+.collab:hover {
+  background: #fff;
+  color: #1a2236;
+  border: 1px solid #1A2236;
+}
+
+.collab:checked {
+  border: 2px solid #1A2236;
+  background: #fff;
+}
+
 .image22 {
   width: 375px;
-  background-size: cover;
   position: absolute;
   margin-top: 1.5rem;
   left: 0;
@@ -97,14 +117,13 @@ h1 {
     height: 50px;
   }
 
-  .image2 {
+  .image22 {
     width: 100%;
-    background-size: cover;
     position: absolute;
     margin-top: 1.5rem;
   }
-
-  .image22 {
-    width: 100%;
+  
+  .image2 {
+    width: 100%; 
   }
 }
