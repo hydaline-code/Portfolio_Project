@@ -51,7 +51,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Just the introductory part of the portfolio done.
+> Improving the portfolio by working on the Project and Aboutme section.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,9 +106,9 @@ $ git clone git@github.com:myaccount/project_to clone.git
 
 > Describe 1 - 3 features you will add to the project.
 
-- **[Projects]**
+- **[Projects Part]**
 - **[About-me]**
-- **[Contact-me]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
