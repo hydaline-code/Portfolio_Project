@@ -19,7 +19,7 @@ header > div {
 
 nav {
   margin-top: 2rem;
-  margin-right: 0.5rem;
+  margin-right: 0.4rem;
 }
 
 .whoiam {
@@ -62,7 +62,7 @@ h1 {
 }
 
 .collab {
-  width: 340px;
+  width: 288px;
   height: 50px;
   margin-left: 1em;
   margin-right: 1em;
@@ -94,10 +94,11 @@ h1 {
 }
 
 .image2 {
-  width: 320px;
+  width: 375px;
 }
 
 .projects {
+  width: 320px;
   display: grid;
 }
 
@@ -126,12 +127,13 @@ h1 {
 }
 
 .project-1_name {
-  display: grid;
-  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
   color: #fff;
   width: 320px;
   height: 156px;
   background: #1a2236;
+  align-items: flex-start;
 }
 
 .project-1_name > h2 {
@@ -141,15 +143,15 @@ h1 {
   font-size: 20px;
   line-height: 80%;
   width: 264px;
-  height: 16px;
   margin-left: 1.3rem;
 }
 
-.project-1_name_lang {
+.project-1_name_lang  {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
-  margin-left: 1.3rem;
+  list-style: none;
+  gap: 0.5rem;
+  margin-top: 0;
 }
 
 .langs {
@@ -162,6 +164,7 @@ h1 {
   font-size: 10.33px;
   padding-left: 0.6rem;
   padding-top: 0.3rem;
+  margin-left: -1.2rem;
 }
 
 .langs-1 {
@@ -195,6 +198,7 @@ h1 {
   background: #1a2236;
   border: solid 1px #fff;
   margin-left: 1.3rem;
+  margin-bottom: 0.5rem;
 }
 
 .see-pro:hover {
@@ -214,12 +218,13 @@ h1 {
 }
 
 .project-2_name {
-  display: grid;
-  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
   color: #fff;
   width: 320px;
   height: 156px;
   background: #1a2236;
+  align-items: flex-start;
 }
 
 .project-2_name > h2 {
@@ -239,12 +244,13 @@ h1 {
 }
 
 .project-3_name {
-  display: grid;
-  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
   color: #fff;
   width: 320px;
   height: 156px;
   background: #1a2236;
+  align-items: flex-start;
 }
 
 .project-3_name > h2 {
@@ -264,12 +270,13 @@ h1 {
 }
 
 .project-4_name {
-  display: grid;
-  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
   color: #fff;
   width: 320px;
   height: 156px;
   background: #1a2236;
+  align-items: flex-start;
 }
 
 .project-4_name > h2 {
@@ -289,12 +296,13 @@ h1 {
 }
 
 .project-5_name {
-  display: grid;
-  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
   color: #fff;
   width: 320px;
   height: 156px;
   background: #1a2236;
+  align-items: flex-start;
 }
 
 .project-5_name > h2 {
@@ -314,7 +322,8 @@ h1 {
 }
 
 .project-6_name {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 0.5rem;
   color: #fff;
   width: 320px;
@@ -333,8 +342,14 @@ h1 {
   margin-left: 1.3rem;
 }
 
+.Aboutme {
+  display: flex;
+  flex-direction: column;
+}
+
 .Aboutme-intro {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 3rem;
 }
 
@@ -342,6 +357,7 @@ h1 {
   width: 134px;
   height: 50px;
   margin-left: 1rem;
+  margin-top: 1.5rem;
 }
 
 .Aboutme--h > h2 {
