@@ -2,9 +2,7 @@
 
 body {
   margin: auto;
-  max-width: ;
-
-  
+  max-width: 375px;
 }
 
 header {
@@ -17,6 +15,16 @@ header {
 
 header > div {
   background-size: contain;
+}
+
+input::placeholder {
+  padding: 6px 0 0 10px;
+  position: absolute;  
+}
+
+textarea::placeholder {
+  position: absolute;  
+  padding: 10px 0 0 10px;
 }
 
 nav {
