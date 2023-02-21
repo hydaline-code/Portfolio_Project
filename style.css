@@ -530,6 +530,110 @@ h1 {
   text-align: left;
 }
 
+.Contactme {
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+
+.contactme--heading {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+.contactme--heading > h2 {
+  height: 50px;
+  left: 16px;
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+}
+
+.contactme--heading > p {
+  width: 288px;
+  height: 63px;  
+  font-family: "Poppins",sans-serif ;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+form {
+  margin-top: 3rem;
+}
+
+input[type=text] {
+  width: 288px;
+  height: 52px;
+  margin-bottom: 0.5rem;
+  border: 1px solid #DFDFE0;
+  border-radius: 4px;
+}
+
+input[type=email] {
+  width: 288px;
+  height: 52px;
+  margin-bottom: 0.5rem;
+  border: 1px solid #DFDFE0;
+  border-radius: 4px;
+}
+
+textarea[name=message] {
+  width: 288px;
+  height: 112px;
+  border: 1px solid #DFDFE0;
+  border-radius: 4px;
+}
+
+button[type=submit] {
+  width: 288px;
+  height: 50px;
+  background: #1a2236;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  background: #1a2236;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+  Width: 320px;
+  Height: 150px;
+  margin-right: 0;
+}
+
+.cv1 {
+  width: 164px;
+  margin-left: 1em;
+  margin-right: 1em;
+  font-family: "Poppins", sans-serif;
+  color: #92DCDC;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+
+.footerlist {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-left: 0;
+}
+
 @media screen and (min-width: 48rem) {
   header {
     width: 96%;
