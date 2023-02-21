@@ -3,6 +3,7 @@
 body {
   box-sizing: border-box;
   margin: 0;
+  
 }
 
 header {
@@ -98,7 +99,6 @@ h1 {
 }
 
 .projects {
-  width: 320px;
   display: grid;
 }
 
