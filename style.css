@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;500&display=swap");
 
 body {
-  box-sizing: border-box;
-  margin: 0;
+  margin: auto;
+  max-width: ;
+
   
 }
 
@@ -633,7 +634,7 @@ footer {
   gap: 2rem;
   margin-left: 0;
 }
-
+/*
 @media screen and (min-width: 48rem) {
   header {
     width: 96%;
@@ -661,4 +662,4 @@ footer {
   .image2 {
     width: 100%;
   }
-}
+}*/
