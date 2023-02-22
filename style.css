@@ -1,13 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;500&display=swap");
 
 body {
-<<<<<<< HEAD
   margin: 0 auto;
   width: 375px;
-=======
-  margin: auto;
-  max-width: 375px;
->>>>>>> 12478c12ec6cd4f89c5dbd7c79cfd6b44bb10cd9
 }
 
 header {
@@ -19,16 +14,6 @@ header {
 
 header > div {
   background-size: contain;
-}
-
-input::placeholder {
-  padding: 6px 0 0 10px;
-  position: absolute;  
-}
-
-textarea::placeholder {
-  position: absolute;  
-  padding: 10px 0 0 10px;
 }
 
 nav {
@@ -134,10 +119,12 @@ h1 {
 
 .projects-1_1 {
   display: grid;
+  margin-bottom: 0;
 }
 
 .projects-1_img {
   width: 100%;
+  height: auto;
 }
 
 .project-1_name {
@@ -146,7 +133,6 @@ h1 {
   color: #fff;
   background: #1a2236;
   align-items: flex-start;
-  height: 156px;
 }
 
 .project-1_name > h2 {
@@ -211,7 +197,7 @@ h1 {
   background: #1a2236;
   border: solid 1px #fff;
   margin-left: 1.3rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .see-pro:hover {
@@ -233,7 +219,6 @@ h1 {
   display: flex;
   flex-direction: column;
   color: #fff;
-  height: 156px;
   background: #1a2236;
   align-items: flex-start;
 }
@@ -257,7 +242,6 @@ h1 {
   display: flex;
   flex-direction: column;
   color: #fff;
-  height: 156px;
   background: #1a2236;
   align-items: flex-start;
 }
@@ -281,7 +265,6 @@ h1 {
   display: flex;
   flex-direction: column;
   color: #fff;
-  height: 156px;
   background: #1a2236;
   align-items: flex-start;
 }
@@ -305,7 +288,6 @@ h1 {
   display: flex;
   flex-direction: column;
   color: #fff;
-  height: 156px;
   background: #1a2236;
   align-items: flex-start;
 }
@@ -585,12 +567,12 @@ textarea[name=message] {
   position: relative;
 }
 
-input::placeholder {
+input ::placeholder {
   padding: 6px 0 0 10px;
   position: absolute;
 }
 
-textarea::placeholder {
+textarea ::placeholder {
   position: absolute;
   padding: 10px 0 0 10px;
 }
@@ -614,9 +596,7 @@ footer {
   flex-direction: column;
   align-items: space-around;
   background: #1a2236;
-  margin-bottom: 2rem;
   margin-top: 3rem;
-  height: 150px;
 }
 
 .cv1 {
