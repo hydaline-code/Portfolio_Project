@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;500&display=swap");
 
 body {
-  box-sizing: border-box;
-  margin: 0;
+  margin: 0 auto;
+  width: 375px;
 }
 
 header {
-  width: 375px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -23,7 +22,6 @@ nav {
 }
 
 .whoiam {
-  width: 375px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -88,17 +86,15 @@ h1 {
 }
 
 .image22 {
-  width: 375px;
   margin-top: 1.3rem;
   left: 0;
 }
 
 .image2 {
-  width: 375px;
+  width: 100%;
 }
 
 .projects {
-  width: 320px;
   display: grid;
 }
 
@@ -121,17 +117,20 @@ h1 {
   margin-top: 4rem;
 }
 
+.projects-1_1 {
+  display: grid;
+  margin-bottom: 0;
+}
+
 .projects-1_img {
-  width: 320px;
-  height: 186px;
+  width: 100%;
+  height: auto;
 }
 
 .project-1_name {
   display: flex;
   flex-direction: column;
   color: #fff;
-  width: 320px;
-  height: 156px;
   background: #1a2236;
   align-items: flex-start;
 }
@@ -198,7 +197,7 @@ h1 {
   background: #1a2236;
   border: solid 1px #fff;
   margin-left: 1.3rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .see-pro:hover {
@@ -213,16 +212,13 @@ h1 {
 }
 
 .projects-2_img {
-  width: 320px;
-  height: 186px;
+  display: grid;
 }
 
 .project-2_name {
   display: flex;
   flex-direction: column;
   color: #fff;
-  width: 320px;
-  height: 156px;
   background: #1a2236;
   align-items: flex-start;
 }
@@ -239,16 +235,13 @@ h1 {
 }
 
 .projects-3_img {
-  width: 320px;
-  height: 186px;
+  display: grid;
 }
 
 .project-3_name {
   display: flex;
   flex-direction: column;
   color: #fff;
-  width: 320px;
-  height: 156px;
   background: #1a2236;
   align-items: flex-start;
 }
@@ -265,16 +258,13 @@ h1 {
 }
 
 .projects-4_img {
-  width: 320px;
-  height: 186px;
+  display: grid;
 }
 
 .project-4_name {
   display: flex;
   flex-direction: column;
   color: #fff;
-  width: 320px;
-  height: 156px;
   background: #1a2236;
   align-items: flex-start;
 }
@@ -291,16 +281,13 @@ h1 {
 }
 
 .projects-5_img {
-  width: 320px;
-  height: 186px;
+  display: grid;
 }
 
 .project-5_name {
   display: flex;
   flex-direction: column;
   color: #fff;
-  width: 320px;
-  height: 156px;
   background: #1a2236;
   align-items: flex-start;
 }
@@ -316,17 +303,11 @@ h1 {
   margin-left: 1.3rem;
 }
 
-.projects-6_img {
-  width: 320px;
-  height: 186px;
-}
-
 .project-6_name {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   color: #fff;
-  width: 320px;
   height: 156px;
   background: #1a2236;
 }
@@ -345,6 +326,7 @@ h1 {
 .Aboutme {
   display: flex;
   flex-direction: column;
+  margin-right: 1rem;
 }
 
 .Aboutme-intro {
@@ -370,7 +352,6 @@ h1 {
 }
 
 .Aboutme-para {
-  width: 288px;
   height: 126px;
   margin-left: 1rem;
 }
@@ -385,10 +366,8 @@ h1 {
 }
 
 .cv {
-  width: 288px;
   height: 50px;
   margin-left: 1em;
-  margin-right: 1em;
   background: #1a2236;
   font-family: "Poppins", sans-serif;
   color: #fff;
@@ -423,7 +402,7 @@ h1 {
 
 .Aboutme-lang {
   position: relative;
-  width: 289px;
+  padding: 3rem;
   height: 289px;
   background: #1c528a;
   margin-top: 2rem;
@@ -432,7 +411,6 @@ h1 {
 .Aboutme-lang > h3 {
   color: #fff;
   margin-left: 1.5rem;
-  padding-top: 3rem;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 800;
@@ -459,7 +437,7 @@ h1 {
 }
 
 .Aboutme-Framework {
-  width: 289px;
+  padding: 3rem;
   height: 289px;
   background: #e2505c;
   position: relative;
@@ -474,7 +452,6 @@ h1 {
 .Aboutme-Framework > h3 {
   color: #fff;
   margin-left: 1.5rem;
-  padding-top: 3rem;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 800;
@@ -495,7 +472,7 @@ h1 {
 }
 
 .Aboutme-skills {
-  width: 289px;
+  padding: 3rem;
   height: 289px;
   background: #febf52;
   position: relative;
@@ -510,7 +487,6 @@ h1 {
 .Aboutme-skills > h3 {
   color: #fff;
   margin-left: 1.5rem;
-  padding-top: 3rem;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 800;
@@ -530,6 +506,120 @@ h1 {
   text-align: left;
 }
 
+.Contactme {
+  margin-top: 3rem;
+}
+
+.contactme--heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactme--heading > h2 {
+  height: 50px;
+  left: 16px;
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+}
+
+.contactme--heading > p {
+  height: 63px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 1rem;
+}
+
+form {
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+input[type=text] {
+  width: 100%;
+  height: 52px;
+  margin-bottom: 0.5rem;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  position: relative;
+}
+
+input[type=email] {
+  width: 100%;
+  height: 52px;
+  margin-bottom: 0.5rem;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  position: relative;
+}
+
+textarea[name=message] {
+  width: 100%;
+  height: 112px;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  position: relative;
+}
+
+input ::placeholder {
+  padding: 6px 0 0 10px;
+  position: absolute;
+}
+
+textarea ::placeholder {
+  position: absolute;
+  padding: 10px 0 0 10px;
+}
+
+button[type=submit] {
+  width: 100%;
+  height: 50px;
+  background: #1a2236;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  background: #1a2236;
+  margin-top: 3rem;
+}
+
+.cv1 {
+  width: 164px;
+  margin-left: 1em;
+  margin-top: 2rem;
+  font-family: "Poppins", sans-serif;
+  color: #92dcdc;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+
+.footerlist {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-left: 0;
+}
+
+/*
 @media screen and (min-width: 48rem) {
   header {
     width: 96%;
@@ -557,4 +647,4 @@ h1 {
   .image2 {
     width: 100%;
   }
-}
+} */

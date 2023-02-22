@@ -52,6 +52,7 @@
 ### Key Features <a name="key-features"></a>
 
 > Improving the portfolio by working on the Project and Aboutme section.
+> Improving the portfolio by working on the  Contact-form .
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,6 +109,7 @@ $ git clone git@github.com:myaccount/project_to clone.git
 
 - **[Projects Part]**
 - **[About-me]**
+- **[Contact-me]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
