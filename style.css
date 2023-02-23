@@ -827,8 +827,7 @@ footer {
   }
 
   .desktop--projects {
-    margin-top: 10rem;
-    border: solid;
+    margin-top: 14rem;
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
     
@@ -844,9 +843,7 @@ footer {
   .desktop-pro3{
     position: relative;
   }
-  .desktop-pro1, .desktop-pro2, .desktop-pro3 {
-    border: solid;
-  }
+  
   .img-dd1 {
     width: 100%;
   }
@@ -859,10 +856,6 @@ footer {
     position: absolute;
     right: 0;
     bottom: 6.3rem;
-  }
-  .desktop-pro5 {
-    border: solid;
-  
   }
   .desktop-pro5_1{
     position: relative;
@@ -887,7 +880,7 @@ footer {
     width: 33%;
     height: 488px;
     position: absolute;
-    top: 107rem;
+    top: 111rem;
     left: 67%;
     
   }
@@ -927,5 +920,51 @@ footer {
     padding-left: 0.6rem;
     padding-top: 0.3rem;
   }
-  
+  .Aboutme-grid {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+  }
+  .Aboutme-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 446px;
+    height: 336px;
+    gap: 2rem;
+  }
+  .Aboutme {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+  .Aboutme--desktop{
+    position: relative;
+  }
+  .img-dd_abtme {
+    position: absolute;
+    bottom: 0;
+  }
+  .Aboutme-Framework{
+    margin-top: 2rem;
+  }
+  .cv {
+    height: 100px;
+    width: 240px;
+    border-radius: 0px;
+  }
+  .Aboutme--h{
+    width: 295px;
+    height: 110px;
+  }
+  .Aboutme--h > h2 {
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 100%;
+  }
+  .Aboutme-para{
+    width: 446px;
+    height: 84px;
+    margin-top: 4rem;
+  }
 } 
