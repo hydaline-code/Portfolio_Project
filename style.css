@@ -669,6 +669,26 @@ footer {
   }
 
   .desktop--nav--ul {
+    background: #fff;
+    transition: background-color 3s;
+  }
+
+  .desktop--nav--ul :hover {
+    border: solid rebeccapurple;
+    background: #febf52;
+  }
+
+   .desktop--nav--ul > li {
+    animation-name: change-color;
+    animation-duration: 10s;
+  }
+
+  @keyframes change-color {
+  from {color: #fff;}
+  to {color: royalblue}
+}
+
+  .desktop--nav--ul {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -676,6 +696,7 @@ footer {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 16px;
+    color: #1a2236;
   }
 
   hr {
