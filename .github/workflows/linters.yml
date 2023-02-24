@@ -49,7 +49,7 @@ jobs:
   nodechecker:
     name: node_modules checker
     runs-on: ubuntu-22.04
-    steps:
+    steps:gir
       - uses: actions/checkout@v2
       - name: Check node_modules existence
         run: |

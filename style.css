@@ -403,7 +403,6 @@ h1 {
 .Aboutme-lang {
   position: relative;
   padding: 3rem;
-  height: 289px;
   background: #1c528a;
   margin-top: 2rem;
 }
@@ -438,7 +437,6 @@ h1 {
 
 .Aboutme-Framework {
   padding: 3rem;
-  height: 289px;
   background: #e2505c;
   position: relative;
 }
@@ -473,7 +471,6 @@ h1 {
 
 .Aboutme-skills {
   padding: 3rem;
-  height: 289px;
   background: #febf52;
   position: relative;
 }
@@ -567,12 +564,13 @@ textarea[name=message] {
   position: relative;
 }
 
-input ::placeholder {
+input::placeholder {
   padding: 6px 0 0 10px;
   position: absolute;
+  bottom: 2rem;
 }
 
-textarea ::placeholder {
+textarea::placeholder {
   position: absolute;
   padding: 10px 0 0 10px;
 }
@@ -619,32 +617,636 @@ footer {
   margin-left: 0;
 }
 
-/*
-@media screen and (min-width: 48rem) {
-  header {
-    width: 96%;
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .profession--desktop,
+  .desktop--nav,
+  .image24,
+  .image25,
+  .desktop--main,
+  .desktop--projects-main {
+    display: none;
   }
 
-  .whoiam {
+  .desktop--projectss,
+  .desktop--nav--ul {
+    display: none;
+  }
+
+  .Aboutme--desktop {
+    display: none;
+  }
+
+  .desktop--form,
+  .contactme--desktop-img1,
+  .img-dd1-1,
+  .img-dd1-2 {
+    display: none;
+  }
+
+  .desktop--form--1,
+  .contactme--desktop-img2 {
+    display: none;
+  }
+
+  .desktop--para {
+    display: none;
+  }
+
+  .cv-desktop,
+  .desktop-pro1 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
     width: 100%;
-    flex: 1 1 80%;
+    margin: 0 auto;
   }
 
-  .profession {
-    width: 100%;
+  .desktop--nav--ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
   }
 
-  .collab {
-    width: 95%;
-    height: 50px;
+  hr {
+    width: 29px;
+    height: 2px;
+    background: #1a2236;
+    margin-top: 0;
   }
 
-  .image22 {
-    width: 100%;
-    margin-top: 1.5rem;
+  .desktop--nav {
+    margin-left: 40%;
+  }
+
+  .myname {
+    margin-right: 4rem;
+    margin-top: 9rem;
   }
 
   .image2 {
+    display: none;
+  }
+
+  .image24 {
+    position: absolute;
+    left: 39.2%;
+    top: 79.5%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .image23 {
     width: 100%;
   }
-} */
+
+  .whoiam {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex: 1 1 100%;
+  }
+
+  .profession {
+    display: none;
+  }
+
+  .profession--desktop {
+    width: 484px;
+  }
+
+  .profession--desktop > p {
+    width: 484px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #1a2236;
+    margin-left: 1.5rem;
+  }
+
+  .collab {
+    width: 254px;
+    margin-left: 1.5rem;
+  }
+
+  .mobile--nav,
+  header > div {
+    display: none;
+  }
+
+  .projects,
+  .projects-2,
+  .projects-3,
+  .projects-4,
+  .projects-5,
+  .projects-6 {
+    display: none;
+  }
+
+  .projects--d {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 8rem;
+  }
+
+  .projects-1-d {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 0  1 75%;
+    width: 465px;
+  }
+
+  .projects-1_img {
+    width: 100%;
+    position: relative;
+  }
+
+  .projects-title {
+    flex: 1 1 25%;
+  }
+
+  .projects-title > h2 {
+    transform: rotate(-90deg);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 100%;
+    margin-top: 1rem;
+    position: absolute;
+    width: 398px;
+    height: 110px;
+    left: -100px;
+    top: 158px;
+  }
+
+  .projects-title-d {
+    margin-top: 3px;
+  }
+
+  .project-1_name {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background: #1a2236;
+    align-items: flex-start;
+    position: absolute;
+    top: 35%;
+    gap: 1rem;
+    width: 946px;
+    height: 357px;
+  }
+
+  .project-1_name > h2 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 100%;
+    margin-left: 1.5rem;
+    width: 726px;
+    height: 48px;
+  }
+
+  .langs {
+    width: 132px;
+    height: 40px;
+    background: #98dede;
+    color: #1a2236;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 0.6rem;
+    padding-top: 0.3rem;
+    margin-left: -1.2rem;
+  }
+
+  .langs-1 {
+    width: 169px;
+    height: 40px;
+    background: #98dede;
+    color: #1a2236;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 0.6rem;
+    padding-top: 0.3rem;
+    margin-left: 1rem;
+  }
+
+  .langs-2 {
+    width: 144px;
+    height: 40px;
+    background: #98dede;
+    color: #1a2236;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 0.6rem;
+    padding-top: 0.3rem;
+    margin-left: 1rem;
+  }
+
+  .see-pro {
+    width: 212px;
+    height: 51px;
+    color: #fff;
+    background: #1a2236;
+    border: solid 1px #fff;
+    font-size: 18px;
+    margin-left: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .desktop--projects {
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    position: relative;
+  }
+
+  .desktop-pro4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .desktop-pro4_1 {
+    position: relative;
+  }
+
+  .desktop-pro3 {
+    position: relative;
+  }
+
+  .img-dd1-1 {
+    width: 100%;
+    margin-top: 3.1rem;
+  }
+
+  .img-dd1-2 {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .img-dd1 {
+    width: 100%;
+  }
+
+  .img-dd3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  .img-dd3-1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .desktop-pro5_1 {
+    position: relative;
+    width: 100%;
+  }
+
+  .img-dd4 {
+    position: absolute;
+    left: 0;
+    bottom: -20%;
+  }
+
+  .img-dd1-6 {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .image25 {
+    width: 100%;
+  }
+
+  .img-dd7 {
+    width: 75%;
+  }
+
+  .projects-2_img {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 33%;
+    height: 488px;
+    position: absolute;
+    top: 105rem;
+    left: 67%;
+  }
+
+  .langs-d {
+    width: 69px;
+    height: 20px;
+    background: #98dede;
+    color: #1a2236;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 10.33px;
+    padding-left: 0.6rem;
+    padding-top: 0.3rem;
+    margin-left: -1.2rem;
+  }
+
+  .langs-1d {
+    width: 87px;
+    height: 20px;
+    background: #98dede;
+    color: #1a2236;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 10.33px;
+    padding-left: 0.6rem;
+    padding-top: 0.3rem;
+  }
+
+  .langs-2d {
+    width: 27px;
+    height: 20px;
+    background: #98dede;
+    color: #1a2236;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 10.33px;
+    padding-left: 0.6rem;
+    padding-top: 0.3rem;
+  }
+
+  .Aboutme-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+
+  .Aboutme-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 446px;
+    height: 336px;
+    gap: 2rem;
+  }
+
+  .Aboutme {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+
+  .Aboutme--desktop {
+    position: relative;
+  }
+
+  .img-dd_abtme {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .Aboutme-Framework {
+    margin-top: 2rem;
+  }
+
+  .button--desktop {
+    height: 70px;
+    width: 254px;
+  }
+
+  .cv-desktop {
+    width: 254px;
+    height: 70px;
+    margin-left: 1em;
+    background: #1a2236;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: center;
+    position: relative;
+    padding-right: 2rem;
+  }
+
+  .cvimg--d {
+    margin-left: 1rem;
+    position: absolute;
+  }
+
+  .cv {
+    display: none;
+  }
+
+  .Aboutme--h {
+    width: 295px;
+    height: 110px;
+  }
+
+  .Aboutme--h > h2 {
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 100%;
+  }
+
+  .Aboutme-para {
+    width: 446px;
+    height: 84px;
+    margin-top: 4rem;
+  }
+
+  .contactme-h {
+    display: none;
+  }
+
+  .Contactme {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    position: relative;
+    margin-top: 6rem;
+    background: #f9f9fa;
+  }
+
+  .contactme--desktop-img1-1 {
+    width: 100%;
+  }
+
+  .mobile--form {
+    display: none;
+  }
+
+  .desktop--form {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .desktop--form--1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    gap: 2rem;
+    flex: 0 0 100%;
+  }
+
+  input[type=text] {
+    width: 100%;
+    height: 52px;
+    margin-bottom: 0.5rem;
+    border: 1px solid #dfdfe0;
+    border-radius: 4px;
+    position: relative;
+  }
+
+  input[type=email] {
+    width: 100%;
+    height: 52px;
+    margin-bottom: 0.5rem;
+    border: 1px solid #dfdfe0;
+    border-radius: 4px;
+    position: relative;
+  }
+
+  textarea[name=message] {
+    width: 100%;
+    height: 112px;
+    border: 1px solid #dfdfe0;
+    border-radius: 4px;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 1rem;
+  }
+
+  .label1 {
+    position: absolute;
+    top: -1.5rem;
+    left: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7d7c84;
+  }
+
+  .label2 {
+    position: absolute;
+    top: -1.5rem;
+    left: 54%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7d7c84;
+  }
+
+  .label3 {
+    padding-left: 0.2rem;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7d7c84;
+  }
+
+  textarea::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #7d7c84;
+    width: 222px;
+    height: 24px;
+    padding: 1rem;
+  }
+
+  button[type=submit] {
+    width: 254px;
+    height: 70px;
+    background: #1a2236;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 25%;
+    margin-bottom: 7rem;
+  }
+
+  .contactme--heading > h2 {
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 100%;
+    text-align: center;
+  }
+
+  .contactme--heading > .mobile--para {
+    display: none;
+  }
+
+  .contactme--heading > .desktop--para {
+    width: 519px;
+    height: 63px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    margin-left: 3rem;
+  }
+
+  .contactme--desktop-img2 {
+    width: 100%;
+    position: relative;
+  }
+
+  .image-17 {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  footer {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footerlist {
+    margin: 4rem;
+  }
+
+  .cv1 {
+    margin: 4rem;
+  }
+}
