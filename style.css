@@ -403,7 +403,6 @@ h1 {
 .Aboutme-lang {
   position: relative;
   padding: 3rem;
-  height: 289px;
   background: #1c528a;
   margin-top: 2rem;
 }
@@ -438,7 +437,6 @@ h1 {
 
 .Aboutme-Framework {
   padding: 3rem;
-  height: 289px;
   background: #e2505c;
   position: relative;
 }
@@ -473,7 +471,6 @@ h1 {
 
 .Aboutme-skills {
   padding: 3rem;
-  height: 289px;
   background: #febf52;
   position: relative;
 }
@@ -620,16 +617,18 @@ footer {
   margin-left: 0;
 }
 
-@media screen and (max-width: 425px) and (min-width: 320px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
   .profession--desktop,
   .desktop--nav,
   .image24,
   .image25,
-  .desktop--main {
+  .desktop--main,
+  .desktop--projects-main {
     display: none;
   }
 
-  .desktop--projectss {
+  .desktop--projectss,
+  .desktop--nav--ul {
     display: none;
   }
 
@@ -638,7 +637,9 @@ footer {
   }
 
   .desktop--form,
-  .contactme--desktop-img1 {
+  .contactme--desktop-img1,
+  .img-dd1-1,
+  .img-dd1-2 {
     display: none;
   }
 
@@ -651,22 +652,23 @@ footer {
     display: none;
   }
 
-  .cv-desktop {
+  .cv-desktop,
+  .desktop-pro1 {
     display: none;
   }
 }
 
-@media screen and (min-width: 48rem)  and (max-width: 90rem) {
+@media screen and (min-width: 769px) {
   * {
     box-sizing: border-box;
   }
 
   body {
     width: 100%;
+    margin: 0 auto;
   }
 
   .desktop--nav--ul {
-    width: 100%;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -698,8 +700,14 @@ footer {
 
   .image24 {
     position: absolute;
-    left: 40.4%;
-    top: 81%;
+    left: 39.2%;
+    top: 79.5%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .image23 {
+    width: 100%;
   }
 
   .whoiam {
@@ -719,6 +727,7 @@ footer {
   }
 
   .profession--desktop > p {
+    width: 484px;
     font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -752,6 +761,7 @@ footer {
     position: relative;
     display: flex;
     flex-direction: row;
+    margin-top: 8rem;
   }
 
   .projects-1-d {
@@ -759,6 +769,7 @@ footer {
     flex-direction: column;
     justify-content: flex-end;
     flex: 0  1 75%;
+    width: 465px;
   }
 
   .projects-1_img {
@@ -776,7 +787,7 @@ footer {
     font-weight: 400;
     font-size: 110px;
     line-height: 100%;
-    margin-top: 10rem;
+    margin-top: 1rem;
     position: absolute;
     width: 398px;
     height: 110px;
@@ -794,12 +805,11 @@ footer {
     color: #fff;
     background: #1a2236;
     align-items: flex-start;
-    width: 943.9px;
-    height: 420px;
     position: absolute;
     top: 35%;
-    padding-top: 3rem;
-    gap: 2rem;
+    gap: 1rem;
+    width: 946px;
+    height: 357px;
   }
 
   .project-1_name > h2 {
@@ -808,9 +818,9 @@ footer {
     font-weight: 700;
     font-size: 55px;
     line-height: 100%;
-    width: 750px;
-    height: 48px;
     margin-left: 1.5rem;
+    width: 726px;
+    height: 48px;
   }
 
   .langs {
@@ -864,9 +874,10 @@ footer {
   }
 
   .desktop--projects {
-    margin-top: 14rem;
+    margin-top: 0;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    position: relative;
   }
 
   .desktop-pro4 {
@@ -882,6 +893,16 @@ footer {
     position: relative;
   }
 
+  .img-dd1-1 {
+    width: 100%;
+    margin-top: 3.1rem;
+  }
+
+  .img-dd1-2 {
+    width: 100%;
+    margin-top: 0;
+  }
+
   .img-dd1 {
     width: 100%;
   }
@@ -895,7 +916,7 @@ footer {
   .img-dd3-1 {
     position: absolute;
     right: 0;
-    bottom: 6.3rem;
+    bottom: 0;
   }
 
   .desktop-pro5_1 {
@@ -915,6 +936,10 @@ footer {
     top: 0;
   }
 
+  .image25 {
+    width: 100%;
+  }
+
   .img-dd7 {
     width: 75%;
   }
@@ -925,7 +950,7 @@ footer {
     width: 33%;
     height: 488px;
     position: absolute;
-    top: 111rem;
+    top: 105rem;
     left: 67%;
   }
 
@@ -969,6 +994,7 @@ footer {
   .Aboutme-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 0;
   }
 
   .Aboutme-intro {
@@ -1056,6 +1082,11 @@ footer {
     grid-template-columns: 0.5fr 1fr 0.5fr;
     position: relative;
     margin-top: 6rem;
+    background: #f9f9fa;
+  }
+
+  .contactme--desktop-img1-1 {
+    width: 100%;
   }
 
   .mobile--form {
@@ -1074,6 +1105,7 @@ footer {
     justify-content: space-around;
     position: relative;
     gap: 2rem;
+    flex: 0 0 100%;
   }
 
   input[type=text] {
@@ -1191,7 +1223,13 @@ footer {
     margin-left: 3rem;
   }
 
+  .contactme--desktop-img2 {
+    width: 100%;
+    position: relative;
+  }
+
   .image-17 {
+    width: 100%;
     position: absolute;
     bottom: 0;
     right: 0;
