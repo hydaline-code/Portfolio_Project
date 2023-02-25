@@ -675,7 +675,7 @@ footer {
 
   .desktop--nav--ul :hover {
     border: solid rebeccapurple;
-    background: #febf52;
+    background: limegreen;
   }
 
    .desktop--nav--ul > li {
@@ -685,7 +685,7 @@ footer {
 
   @keyframes change-color {
   from {color: #fff;}
-  to {color: royalblue}
+  to {color: saddlebrown}
 }
 
   .desktop--nav--ul {
