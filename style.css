@@ -668,11 +668,6 @@ footer {
     margin: 0 auto;
   }
 
-  .desktop--nav--ul {
-    background: #fff;
-    transition: background-color 3s;
-  }
-
   .desktop--nav--ul :hover {
     border: solid rebeccapurple;
     background: limegreen;
@@ -687,6 +682,7 @@ footer {
     from {
       color: rebeccapurple;
     }
+
     to {
       color: saddlebrown;
     }
@@ -701,6 +697,8 @@ footer {
     font-weight: 400;
     font-size: 16px;
     color: #1a2236;
+    background: #fff;
+    transition: background-color 3s;
   }
 
   hr {
