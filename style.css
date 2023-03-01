@@ -658,7 +658,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 769px) {
+/*@media screen and (min-width: 769px) {
   * {
     box-sizing: border-box;
   }
@@ -731,21 +731,25 @@ footer {
     height: auto;
   }
 
-  .image23 {
-    width: 100%;
-  }
+  .image24 {
+  padding-top: 91%;
+}
 
   .whoiam {
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     flex: 1 1 100%;
   }
 
   .profession {
     display: none;
   }
+
+  .desktop--main {
+  display: flex;
+  flex-direction: row-reverse;
+}
 
   .profession--desktop {
     width: 484px;
@@ -787,6 +791,7 @@ footer {
     display: flex;
     flex-direction: row;
     margin-top: 8rem;
+     width: 100%;
   }
 
   .projects-1-d {
@@ -794,7 +799,6 @@ footer {
     flex-direction: column;
     justify-content: flex-end;
     flex: 0 1 75%;
-    width: 465px;
   }
 
   .projects-1_img {
@@ -814,8 +818,6 @@ footer {
     line-height: 100%;
     margin-top: 1rem;
     position: absolute;
-    width: 398px;
-    height: 110px;
     left: -100px;
     top: 158px;
   }
@@ -833,8 +835,7 @@ footer {
     position: absolute;
     top: 35%;
     gap: 1rem;
-    width: 946px;
-    height: 357px;
+   width: 100%;
   }
 
   .project-1_name > h2 {
@@ -975,7 +976,7 @@ footer {
     width: 33%;
     height: 488px;
     position: absolute;
-    top: 105rem;
+   top: 1672px;
     left: 67%;
   }
 
@@ -1036,6 +1037,7 @@ footer {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
+    width: 100%;
   }
 
   .Aboutme--desktop {
@@ -1274,4 +1276,14 @@ footer {
   .cv1 {
     margin: 4rem;
   }
-}
+}*/
+@media screen and (min-width: 1024px) {
+  .image24 {
+    padding-top: 80%;
+  }
+  
+  .project-1_name {
+    width: 66%;
+    height: 65%;
+  }
+  }
