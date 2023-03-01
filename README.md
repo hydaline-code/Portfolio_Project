@@ -57,7 +57,8 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
   🚀 Live Demo <p> ( <a
- href="#readme-top"> See live </a>)</p>
+ href=" https://hydaline-code.github.io/Portfolio_Project/
+"> See live </a>)</p>
 
 <!-- GETTING STARTED -->
 
