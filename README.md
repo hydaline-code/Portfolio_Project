@@ -56,9 +56,12 @@
 >Deployement of the project on github pages .
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-  🚀 Live Demo <p> ( <a
- href=" https://hydaline-code.github.io/Portfolio_Project/
-"> See live </a>)</p>
+  
+  <!------SEE LIVE DEMO ----->
+
+  ## 🚀 See Live Demo here: [ Live demo ](https://hydaline-code.github.io/Portfolio_Project/)
+
+
 
 <!-- GETTING STARTED -->
 
