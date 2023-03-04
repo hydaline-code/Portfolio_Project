@@ -26,7 +26,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio-Project] <a name="about-project"></a>
+# 📖 [Portfolio-Project-Deployment] <a name="about-project"></a>
 
 > A portfolio is what defines and gives value to a professional software developer because it actually showcases what he/she can really do.Hence it is the very important and must be built with care.
 
@@ -53,8 +53,14 @@
 
 > Improving the portfolio by working on the Project and Aboutme section.
 > Improving the portfolio by working on the  Contact-form .
+>Deployement of the project on github pages .
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+  
+  <!------SEE LIVE DEMO ----->
+
+  ## 🚀 See Live Demo here: [ Live demo ](https://hydaline-code.github.io/Portfolio_Project/)
+
 
 
 <!-- GETTING STARTED -->
