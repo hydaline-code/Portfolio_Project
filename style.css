@@ -21,6 +21,12 @@ nav {
   margin-right: 0.4rem;
 }
 
+.Menu-list-item > li > a {
+  text-decoration: none;
+  color: #1a2236;
+  
+}
+
 .whoiam {
   display: flex;
   flex-direction: column;
@@ -91,6 +97,10 @@ h1 {
 }
 
 .image2 {
+  width: 100%;
+}
+
+.Menu-foot {
   width: 100%;
 }
 
@@ -617,6 +627,26 @@ footer {
   margin-left: 0;
 }
 
+.Menu-list-item {
+  margin-top: 2rem;
+}
+
+.Menu-list-item > li {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 48px ;
+
+}
+
+.Menufooter {
+  margin-top: 3rem;
+}
+
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .profession--desktop,
   .desktop--nav,
@@ -624,6 +654,13 @@ footer {
   .image25,
   .desktop--main,
   .desktop--projects-main {
+    display: none;
+  }
+
+  .imgmenu1, 
+  .menu-close, 
+  #Menu,
+  .Menu-foot {
     display: none;
   }
 
@@ -661,6 +698,14 @@ footer {
 @media screen and (min-width: 768px) {
   * {
     box-sizing: border-box;
+  }
+
+  .imgmenu1, 
+  .menu-close, 
+  #newMenu,
+  .Menu-list-item,
+  .Menu-foot {
+    display: none;
   }
 
   body {
