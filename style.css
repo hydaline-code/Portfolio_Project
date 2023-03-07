@@ -24,7 +24,6 @@ nav {
 .Menu-list-item > li > a {
   text-decoration: none;
   color: #1a2236;
-  
 }
 
 .whoiam {
@@ -602,7 +601,7 @@ button[type=submit] {
 footer {
   display: flex;
   flex-direction: column;
-  align-items: space-around;
+  align-items: baseline;
   background: #1a2236;
   margin-top: 3rem;
 }
@@ -631,7 +630,7 @@ footer {
   margin-top: 2rem;
 }
 
-.Menu-list-item > li {
+.items {
   list-style: none;
   text-align: center;
   margin-bottom: 2rem;
@@ -639,8 +638,7 @@ footer {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 48px ;
-
+  line-height: 48px;
 }
 
 .Menufooter {
@@ -657,8 +655,8 @@ footer {
     display: none;
   }
 
-  .imgmenu1, 
-  .menu-close, 
+  .imgmenu1,
+  .menu-close,
   #Menu,
   .Menu-foot {
     display: none;
@@ -700,8 +698,8 @@ footer {
     box-sizing: border-box;
   }
 
-  .imgmenu1, 
-  .menu-close, 
+  .imgmenu1,
+  .menu-close,
   #newMenu,
   .Menu-list-item,
   .Menu-foot {
