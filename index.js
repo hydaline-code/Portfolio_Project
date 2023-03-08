@@ -17,7 +17,7 @@ hamburger.addEventListener('click', () => {
   footimg.style.display = 'block';
 });
 
-function menuclose(){
+function menuclose() {
   view1.style.display = 'block';
   hamburger.style.display = 'block';
   hideimg.style.display = 'block';
@@ -26,8 +26,8 @@ function menuclose(){
   newmenu.style.display = 'none';
 }
 
-close1.addEventListener('click', menuclose)
+close1.addEventListener('click', menuclose);
 
 for (let i = 0; i < item.length; i += 1) {
-  item[i].addEventListener('click', menuclose)
-  };
+  item[i].addEventListener('click', menuclose);
+}
