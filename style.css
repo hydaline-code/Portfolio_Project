@@ -44,7 +44,7 @@ nav {
   font-size: 16px;
   line-height: 48px;
 }
-
+  
 .whoiam {
   display: flex;
   flex-direction: column;
@@ -643,6 +643,10 @@ footer {
   flex-direction: row;
   gap: 2rem;
   margin-left: 0;
+}
+
+.modal-mobile {
+  border-style: solid;
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
