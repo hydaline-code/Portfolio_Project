@@ -1,5 +1,5 @@
 const hideimg = document.querySelector('.imgmenu');
-const hamburger = document.querySelector('.mobile--nav');
+const hamburger = document.querySelector('.menu-open');
 const close1 = document.querySelector('.menu-close');
 const item = document.querySelectorAll('.items');
 const newmenu = document.querySelector('#Menu');
@@ -17,18 +17,17 @@ hamburger.addEventListener('click', () => {
   footimg.style.display = 'block';
 });
 
-close1.addEventListener('click', () => {
+function menuclose(){
   view1.style.display = 'block';
   hamburger.style.display = 'block';
   hideimg.style.display = 'block';
   showimg.style.display = 'none';
   close1.style.display = 'none';
   newmenu.style.display = 'none';
-});
+}
+
+close1.addEventListener('click', menuclose)
 
 for (let i = 0; i < item.length; i += 1) {
-  item[i].addEventListener('click', () => {
-    newmenu.style.display = 'none';
-    view1.style.display = 'block';
-  });
-}
+  item[i].addEventListener('click', menuclose)
+  };
