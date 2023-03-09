@@ -31,3 +31,12 @@ close1.addEventListener('click', menuclose);
 for (let i = 0; i < item.length; i += 1) {
   item[i].addEventListener('click', menuclose);
 }
+
+
+const showpop = document.getElementsByClassName('modal-mobile');
+const popup = document.getElementById("myPopup");
+
+function pop() {
+  popup.classList.toggle("show");
+}
+popup.addEventListener('click', pop);

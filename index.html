@@ -12,6 +12,7 @@
 			href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;500&display=swap"
 			rel="stylesheet"
 		/>
+		
 	</head>
 	<body>
     
@@ -118,8 +119,8 @@
 			</section>
 
 
-			<section class="modal-mobile">
-			
+			<section  id="popupwindow">
+			<div class="modal-mobile">
 				<h2>Project name goes here</h2>
 				<div class="modal-lang">
 
@@ -172,13 +173,13 @@
 						></object>
 					</button>
 				</div>
-				
+			</div>
 			</section>
 
 			<section class="projects--d">
 				<div class="projects-title">
 					<h2>Projects</h2>
-				</div>
+				</div> 
 
 				<div class="projects-title-d">
 					<object
@@ -186,8 +187,7 @@
 						data="./desktopsvg/image_dots.svg"
 						type="image/svg+xml"
 					></object>
-				</div>
-
+				</div> 
 				<div class="projects-1-d">
 					<object
 						class="projects-1_img"
@@ -201,10 +201,10 @@
 							<li class="langs-1">Ruby on Rails</li>
 							<li class="langs-2">JavaScript</li>
 						</ul>
-						<button class="see-pro">See this project &rarr;</button>
+						<button class="see-pro" >See this project &rarr;</button>
 					</div>
 				</div>
-			</section>
+			</section> 
 
 			<section class="desktop--projects-main">
 				<div class="desktop--projects">
@@ -284,14 +284,13 @@
 							<li class="langs-1d">Ruby on Rails</li>
 							<li class="langs-2d">+1</li>
 						</ul>
-						<button class="see-pro">See this project &rarr;</button>
+						<button class="see-pro" id="seepro">See this project &rarr;</button>
 					</div>
 				</div>
 			</section>
 
-		
-
 			<section class="projects"> <a name="projects"></a>
+
 				<div class="projects-title"><h2>Projects</h2></div>
 				<object
 					class="image25"
@@ -312,7 +311,7 @@
 								<li class="langs-1">Ruby on Rails</li>
 								<li class="langs-2">JavaScript</li>
 							</ul>
-							<button class="see-pro">See this project &rarr;</button>
+							<button class="see-pro"  id="myPopup">See this project &rarr;</button>
 						</div>
 					</div>
 				</div>
@@ -354,6 +353,10 @@
 							<button class="see-pro">See this project &rarr;</button>
 						</div>
 					</div>
+				</div>
+				
+				<div class="popup" onclick="myFunction()">Click me to toggle the popup!
+					<span class="popuptext" id="myPopup">A Simple Popup!</span>
 				</div>
 
 				<div class="projects-4">
@@ -503,11 +506,11 @@
 			</section>
 		</main>
 
-		<section class="Contactme"><a name="Contactme"></a>
+		<section class="Contactme">
+			<a name="Contactme"></a>
+
 			<div class="contactme-h">
-				<a href="#"
-					><object data="./svgfiles/image_1.svg" type="image/svg+xml"></object
-				></a>
+				<object data="./svgfiles/image_1.svg" type="image/svg+xml"></object>
 			</div>
 
 			<div class="contactme--desktop-img1">
@@ -517,6 +520,7 @@
 					type="image/svg+xml"
 				></object>
 			</div>
+			
 			<div class="contactme--heading">
 				<h2>Get Started</h2>
 				<p class="mobile--para">
@@ -583,6 +587,7 @@
 					type="image/svg+xml"
 				></object>
 			</div>
+
 		</section>
 		<footer>
 			<h3 class="cv1">
@@ -635,9 +640,9 @@
 				</li>
 			</ul>
 		</footer>
-
+	
 		<!-------------------------Desktop version ------------------------>
 		<script src="./index.js" ></script>
-		<script src="./popup.js" ></script>
+		
 	</body>
 </html>
