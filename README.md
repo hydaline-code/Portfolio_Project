@@ -146,6 +146,16 @@ I would like to thank Microverse for this oppunity I get in improving myself pro
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- COLLABORATORS -->
+
+## 👥 Collaborators <a name="collaborators"></a>
+
+👤 **Collaborator 1**
+
+- GitHub: [https://github.com/ehmaddd/]
+- Twitter: [https://twitter.com/ehmaddd_pk]
+- LinkedIn: [https://www.linkedin.com/in/ahmad-saeed-734174148/]
+
 
 <!-- LICENSE -->
 
