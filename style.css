@@ -740,6 +740,76 @@ footer {
   margin-left: 4rem;
 }
 
+.project-title  {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 80%;
+  width: 264px;
+  margin-left: 2.3rem;
+  color: #fff;
+}
+
+#updates {
+  margin-top: 3.5rem;
+  border: solid;
+}
+
+.img_dynamic {
+  width: 100%;
+}
+
+.details-1 {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  background: #1a2236;
+  align-items: flex-start;
+}
+
+.refactorlist {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 0.5rem;
+  margin-top: 0;
+}
+
+.refactorlist > li {
+  list-style: none;
+  width: 70px;
+  height: 20px;
+  background: #98dede;
+  color: #1a2236;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 10.33px;
+  padding-left: 0.4rem;
+  padding-top: 0.3rem;
+}
+
+.btn-pro_updat {
+  width: 178px;
+  height: 44px;
+  color: #fff;
+  background: #1a2236;
+  border: solid 1px #fff;
+  margin-left: 2.3rem;
+  margin-bottom: 1rem;
+}
+
+.btn-pro_updat:hover {
+  background: #fff;
+  color: #1a2236;
+  border: 1px solid #1a2236;
+}
+
+.btn-pro_updat:checked {
+  border: 2px solid #1a2236;
+  background: #fff;
+}
+
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .profession--desktop,
   .desktop--nav,
