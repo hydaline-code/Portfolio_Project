@@ -32,7 +32,7 @@ for (let i = 0; i < item.length; i += 1) {
   item[i].addEventListener('click', menuclose);
 }
 
-
+// create the  dynamic projects update
 const projectsupdate = [
   {
     name : 'Project-1 name goes here',
@@ -192,7 +192,6 @@ const projectsupdate = [
     projectTitle.textContent = project.name;
   // creating content for ul
   project.technologies.forEach((tech) => {
-    // create li inside the ul's
     const tagLi = document.createElement('li');
     uL.appendChild(tagLi);
     tagLi.textContent = tech.name;
@@ -207,7 +206,17 @@ const projectsupdate = [
   img_div.src=project.img;
   img_div.classList.add('img_dynamic')
   div_img.appendChild(img_div);
+
+   // creating the  button click
+  const popupwindow = document.querySelector('.popup_window');
+  
+  btn.addEventListener('click', () => {
+  const pop_heading = document.querySelector('.update_heading');
+   pop_heading.textContent = project.name;
+    popupwindow.style.display='block';
+  })
+
   });
   
-   
+  
  

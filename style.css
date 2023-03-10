@@ -850,10 +850,14 @@ footer {
     display: none;
   }
 
-  .desktop--para,
-  .modal-mobile,
-  .popup {
+  .desktop--para {
     display: none;
+  }
+
+  .popup_window {
+    position: fixed;
+    display: none;
+    z-index: 2;
   }
 
   .cv-desktop,
