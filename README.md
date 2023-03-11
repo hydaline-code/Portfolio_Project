@@ -60,6 +60,7 @@
 >Deployement of the project on github pages .
 > Project improvement with a popup window
 >Dom manipulation
+> Added a key features on popups when the user clicks on the see- project button.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
   <!------SEE LIVE DEMO ----->
