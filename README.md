@@ -41,10 +41,13 @@
 
 > Linter was applied so as to have style bug-free codes.
 
+> Project Improvement with Javascript 
+
 <details>
   <summary>Client</summary>
   <ul>
     <li>Linter</li>
+     <li>EsLint</li>
   </ul>
 </details>
 
@@ -56,6 +59,7 @@
 > Improving the portfolio by working on the  Contact-form .
 >Deployement of the project on github pages .
 > Project improvement with a popup window
+>Dom manipulation
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
   <!------SEE LIVE DEMO ----->
