@@ -320,36 +320,58 @@ close2.addEventListener('click', () => {
   }
 });
 
-  const form = document.getElementById('getin-touch');
-  const error = document.getElementById('error');
-  const   email  = form.elements;
+  / FORM VALIDATION-------------------
+const form = document.getElementById('getintouch');
+const error = document.getElementById('error');
+const { email } = form.elements;
 
-  function checkUppercase(str) {
-    for (let i =0; i < str.length; i += 1) {
-      if (str.charAt(i) === str.charAt(i).toUpperCase() && str.charAt(i).match(/[a-z]/i) ){
-    
-      }
+function checkUppercase(str) {
+  for (let i = 0; i < str.length; i += 1) {
+    if (str.charAt(i) === str.charAt(i).toUpperCase() && str.charAt(i).match(/[a-z]/i)) {
+      return true;
     }
-    return false;
   }
+  return false;
+}
 
-  email.addEventListener('click',  () => {
-    error.classList.remove('active');
-    error.classList.remove('active');
-  });
+email.addEventListener('click', () => {
+  error.classList.remove('active');
+  email.classList.remove('active');
+});
 
-  form.addEventListener('submit', (event) => {
-    const emailValue = email.value;
-    if(checkUppercase(emailValue)) {
-      event.preventDefault();
-      error.innerHTML = "Please use a valid characters... email@email.com";
-      email.classList.add('active');
-      email.classList.add('active');
-    }
-    else {
-      form.submit();
-    }
-  });
+form.addEventListener('submit', (event) => {
+  const emailValue = email.value;
+  if (checkUppercase(emailValue)) {
+    event.preventDefault();
+    error.innerHTML = 'please provide a valid email in format: email@email.com';
+    error.classList.add('active');
+    email.classList.add('active');
+  } else {
+    form.submit();
+  }
+});
 
+// local storage .........
+const contactForm = document.querySelector('.form');
+const contactEmailField = document.getElementById('email');
+const contactUsernameField = document.getElementById('name');
+const contactMessageField = document.getElementById('textarea');
+
+contactForm.addEventListener('input', () => {
+  const username = contactUsernameField.value;
+  const email = contactEmailField.value;
+  const message = contactMessageField.value;
+  localStorage.setItem('contact-form', JSON.stringify({ username, email, message }));
+});
+
+window.addEventListener('load', () => {
+  const isDataExist = JSON.parse(localStorage.getItem('contact-form'));
+
+  if (!isDataExist) return;
+
+  contactUsernameField.value = isDataExist.username;
+  contactEmailField.value = isDataExist.email;
+  contactMessageField.value = isDataExist.message;
+});
 
 
