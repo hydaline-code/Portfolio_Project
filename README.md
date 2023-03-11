@@ -61,6 +61,7 @@
 > Project improvement with a popup window
 >Dom manipulation
 > Added a key features on popups when the user clicks on the see- project button.
+>Added contact form validation to the project 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
   <!------SEE LIVE DEMO ----->
