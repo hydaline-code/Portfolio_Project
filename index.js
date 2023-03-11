@@ -36,7 +36,7 @@ for (let i = 0; i < item.length; i += 1) {
 const projectsupdate = [
   {
     name : 'Project-1 name goes here',
-    description :'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description : 'Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisiLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     img: 'dynamicpng/Rectangle 21.png',
     technologies : [
     {
@@ -56,7 +56,8 @@ const projectsupdate = [
   },
   {
     name : 'Project-2 name goes here',
-    description :'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description : 'Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
+  
     img: 'dynamicpng/Rectangle 21 (1).png',
     technologies : [
     {
@@ -77,7 +78,8 @@ const projectsupdate = [
   
 {
   name : 'Project-3 name goes here',
-    description :'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  description : 'Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+  
     img: 'dynamicpng/Rectangle 21 (2).png',
     technologies : [
     {
@@ -97,7 +99,8 @@ const projectsupdate = [
   },
   {
     name : 'Project-4 name goes here',
-    description :'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description : 'Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
+  
     img: 'dynamicpng/Rectangle 21 (3).png',
     technologies : [
     {
@@ -117,7 +120,8 @@ const projectsupdate = [
   },
   {
     name : 'Project-5 name goes here',
-    description :'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description : 'Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
+  
     img: 'dynamicpng/Rectangle 21 (4).png',
     technologies : [
     {
@@ -137,7 +141,9 @@ const projectsupdate = [
   },
   {
     name : 'Project-6 name goes here',
-    description :'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+
+    description : 'Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
+  
     img: 'dynamicpng/Rectangle 21 (5).png',
     technologies : [
     {
@@ -158,65 +164,98 @@ const projectsupdate = [
   
 ]
 
+  
 
-
-// creating dynamic project details
- projectsupdate.forEach((project) => {
+projectsupdate.forEach((project) => {
   const project_1 =document.querySelector('#updates');
-  // filling the project details 
   const div_img = document.createElement('div');
   const sub_div_2 = document.createElement('div');
-  //
   const projectTitle = document.createElement('h2');
+   const uL = document.createElement('ul');
+  
+
+    sub_div_2.classList.add('details-1');
+    div_img.classList.add('detail-img');
+
   sub_div_2.appendChild(projectTitle);
   projectTitle.classList.add('project-title');
-  projectTitle.textContent = projectsupdate.name;
-  const uL = document.createElement('ul');
-  // place it in the html
   project_1 .appendChild(div_img);
   project_1 .appendChild(sub_div_2);
   sub_div_2.appendChild(uL);
-  //populating the unorderedlist
-  //const uLli = document.createElement('li');
-  //uL.appendChild(uLli);
+   
+  uL.classList.add('refactorlist');
  
-  // button created
-  const  btn = document.createElement('button')
-   sub_div_2.appendChild(btn);
 
-  sub_div_2.classList.add('details-1')
-  div_img.classList.add('detail-img');
-  uL.classList.add('refactorlist')
-  btn.classList.add('btn-pro_updat')
-  // creating content for each part created 
-    projectTitle.textContent = project.name;
-  // creating content for ul
+ 
+   projectTitle.textContent = project.name;
+   
+  
   project.technologies.forEach((tech) => {
     const tagLi = document.createElement('li');
     uL.appendChild(tagLi);
-    tagLi.textContent = tech.name;
+    tagLi.textContent = tech.name; 
   });
-  // content for button 
-  const img_Btn = document.createElement('img');
-  img_Btn.src='./svgfiles/Union (1).png';
-  btn.appendChild(img_Btn);
-  btn.textContent = 'See this project'
-  // adding images 
+  
   const img_div = document.createElement('img');
   img_div.src=project.img;
   img_div.classList.add('img_dynamic')
   div_img.appendChild(img_div);
 
-   // creating the  button click
-  const popupwindow = document.querySelector('.popup_window');
   
-  btn.addEventListener('click', () => {
-  const pop_heading = document.querySelector('.update_heading');
-   pop_heading.textContent = project.name;
-    popupwindow.style.display='block';
-  })
+
+  const btn = document.createElement('button');
+    sub_div_2.appendChild(btn);
+     btn.classList.add('btn-pro_updat');
+    btn.textContent = 'See this project';
+
+    const popupwindow = document.querySelector('.popup_window');
+
+    btn.addEventListener('click', () => {
+
+      popupwindow.style.display='block';
+     const pop_heading = document.querySelector('.update_heading');
+    pop_heading.textContent = project.name;
+    projectTitle.textContent = projectsupdate.name;
+
+    const modal_image = document.querySelector('.modall-img');
+    const img_modal = document.createElement('img');
+    modal_image.appendChild(img_modal);
+    img_modal.classList.add('modal-img');
+    img_modal.src='dynamicpng/Group 109.png';
+
+    const modal_para = document.querySelector('.modal-p');
+    const para = document.createElement('p');
+    modal_para.appendChild(para);
+    para.textContent= project.description;
+
+
+  project.technologies.forEach((tech) => {
+    const modal_lang = document.querySelector('.modal-lang ul');
+    const lang_li = document.createElement('li');
+    modal_lang.appendChild(lang_li);
+    const Li_a= document.createElement('a');
+    lang_li.appendChild(Li_a);
+        Li_a.textContent = tech.name;
+      });
+    });
+
+    const close2 = document.querySelector('.popup-close');
+    const modal_lang = document.querySelector('.modal-lang ul');
+    close2.addEventListener('click', () => {
+      popupwindow.style.display='none';
+      const remove_Li = document.querySelector('.modal-lang ul li ');
+      if ( remove_Li !== null) modal_lang.removeChild(remove_Li);
+
+      const modal_image = document.querySelector('.modall-img');
+      const remove_img = document.querySelector('.modall-img img');
+      if ( remove_img !== null) modal_image.removeChild(remove_img);
+    });
 
   });
+
+  
+ 
+ 
   
   
  
