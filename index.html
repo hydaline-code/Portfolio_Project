@@ -522,7 +522,7 @@
 					aliquip ex ea commodo consequat.
 				</p>
 
-				<form id="getin-touch"
+				<form 
 					class="mobile--form"
 					action="https://formspree.io/f/xwkjoqwr"
 					method="POST"
@@ -544,8 +544,9 @@
 						maxlength="500"
 						placeholder="Enter your message here ..."
 					></textarea>
-					<button type="submit">Start collaboration</button>
-					<small id="error"></small>
+					<span class="contact-error">error message</span>
+					
+					<button type="submit" onclick="submitForm(event)" >Start collaboration</button>
 				</form>
 
 				<form
@@ -555,19 +556,22 @@
 				>
 					<div class="desktop--form--1">
 						<label class="label1" for="name">Your name</label
-						><input type="text" name="name" maxlength="30" />
+						><input  id="named" type="text" name="name" maxlength="30"	*required="" />
 						<label class="label2" for="email">Your email</label
-						><input type="email" name="email" *required="" />
+						><input   id="emaild" type="email" name="email" *required="" />
 					</div>
+
 					<label class="label3" for="message">Message</label
 					><textarea
+					id="textarea"
 						name="message"
 						maxlength="500"
 						placeholder="Enter your message here ..."
 					></textarea>
-					<button type="submit">Start collaboration</button>
+					<span class="contact-error1">error message</span>
+					<button type="submit" onclick="submitForm1(event)" class="outlined-button btn" >Start collaboration</button>
 				</form>
-			</div>
+			
 
 			<div class="contactme--desktop-img2">
 				<object

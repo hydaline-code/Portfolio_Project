@@ -320,36 +320,37 @@ close2.addEventListener('click', () => {
   }
 });
 
-  const form = document.getElementById('getin-touch');
-  const error = document.getElementById('error');
-  const   email  = form.elements;
+const contactForm = document.querySelector('.mobile--form');
+const contactError = document.querySelector('.contact-error');
+const emailInput = document.querySelector('#email');
 
-  function checkUppercase(str) {
-    for (let i =0; i < str.length; i += 1) {
-      if (str.charAt(i) === str.charAt(i).toUpperCase() && str.charAt(i).match(/[a-z]/i) ){
-    
-      }
-    }
-    return false;
+  function submitForm(event){
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
+    contactError.style.display = 'block';
+    contactError.style.backgroundColor = 'red';
+    contactError.textContent = "Email address should be lowercase";
+    event.preventDefault();
+
   }
 
-  email.addEventListener('click',  () => {
-    error.classList.remove('active');
-    error.classList.remove('active');
-  });
+};
 
-  form.addEventListener('submit', (event) => {
-    const emailValue = email.value;
-    if(checkUppercase(emailValue)) {
-      event.preventDefault();
-      error.innerHTML = "Please use a valid characters... email@email.com";
-      email.classList.add('active');
-      email.classList.add('active');
-    }
-    else {
-      form.submit();
-    }
-  });
+const contactFormd = document.querySelector('.desktop--form--1');
+const Formd = document.querySelector('.desktop--form');
+const contactError1 = document.querySelector('.contact-error1');
+const emailInput1 = document.querySelector('#emaild');
+
+  function submitForm1(event) {
+  if (emailInput1.value !== emailInput1.value.toLowerCase()) {
+    contactError1.style.display = 'block';
+    contactError1.style.backgroundColor = 'red';
+    contactError1.textContent = "Email address should be lowercase";
+    event.preventDefault();
+
+  }
+
+};
+ 
 
 
 
