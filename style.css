@@ -452,6 +452,19 @@ h1 {
   right: 0;
 }
 
+.refactorlist li {
+  list-style: none;
+  width: 70px;
+  height: 20px;
+  background: #98dede;
+  color: #1a2236;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 10.33px;
+  padding-left: 0.4rem;
+  padding-top: 0.3rem;
+}
+
 .Aboutme-lang > ul > li {
   color: #fff;
   padding: 0.2rem;
@@ -645,13 +658,7 @@ footer {
   margin-left: 0;
 }
 
-.Menu-foot {
-  width: 100%;
-  height: 100%;
-}
-
-
-.project-title  {
+.project-title {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -665,10 +672,9 @@ footer {
 
 #updates {
   margin-top: 3.5rem;
-  border: solid;
 }
 
-.img_dynamic {
+.imgdynamic {
   width: 100%;
 }
 
@@ -686,19 +692,6 @@ footer {
   list-style: none;
   gap: 0.5rem;
   margin-top: 0;
-}
-
-.refactorlist > li {
-  list-style: none;
-  width: 70px;
-  height: 20px;
-  background: #98dede;
-  color: #1a2236;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-size: 10.33px;
-  padding-left: 0.4rem;
-  padding-top: 0.3rem;
 }
 
 .btn-pro_updat {
@@ -731,14 +724,14 @@ footer {
 }
 
 .popup-close {
- position: absolute;
+  position: absolute;
   right: 0;
   left: 80%;
   margin: 1rem;
 }
 
 .update_heading {
-  font-family: 'Poppins', sans-serif ;
+  font-family: 'Poppins', sans-serif;
   color: #1a2236;
   font-style: normal;
   font-weight: 700;
@@ -754,13 +747,13 @@ footer {
   margin-top: 2rem;
 }
 
-.modal-lang ul > li  {
+.modal-lang ul > li {
   font-weight: 300;
   font-size: 10.33px;
   font-family: "Poppins", sans-serif;
   padding: 0.3rem 0  0.3rem 0;
   color: #1a2236;
-  border: 0.516669px solid #1A2236;
+  border: 0.516669px solid #1a2236;
   list-style: none;
   width: 70px;
   text-align: center;
@@ -775,7 +768,7 @@ footer {
 }
 
 .modal-p > p {
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -794,13 +787,13 @@ footer {
 .live {
   width: 246px;
   height: 51px;
-  border: 1px solid #1A2236;
-  font-family: 'Poppins',sans-serif;
+  border: 1px solid #1a2236;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   text-align: center;
-  color: #1A2236;
+  color: #1a2236;
 }
 
 .liveimg {
@@ -852,7 +845,7 @@ footer {
   }
 
   .popup_window,
-  .popup_section  {
+  .popup_section {
     display: none;
   }
 
@@ -882,7 +875,7 @@ footer {
   }
 
   .update_heading {
-    font-family: 'Poppins', sans-serif ;
+    font-family: 'Poppins', sans-serif;
     color: #1a2236;
     font-style: normal;
     font-weight: 700;
@@ -900,60 +893,61 @@ footer {
     margin-left: 2.3rem;
     margin-bottom: 1rem;
   }
-  
+
   .btn-pro_updat:hover {
     background: #fff;
     color: #1a2236;
     border: 1px solid #1a2236;
   }
-  
+
   .btn-pro_updat:checked {
     border: 2px solid #1a2236;
     background: #fff;
   }
-  
+
   .popup_window {
     top: 0;
     z-index: 3;
     width: 100%;
     height: 100%;
     background: #fff;
+    border: solid 4rem #1a2236;
   }
-  
+
   .popup-close {
-   position: absolute;
+    position: absolute;
     right: 0;
     left: 84%;
     margin-top: 3.5rem;
     width: 32px;
     height: 32px;
   }
-  
+
   .modal-lang ul {
     display: flex;
     flex-direction: row;
     gap: 1rem;
     margin: 4rem 4rem 4rem 10rem;
   }
-  
-  .modal-lang ul > li  {
+
+  .modal-lang ul > li {
     font-weight: 300;
     font-size: 20px;
     font-family: "Poppins", sans-serif;
     padding: 0.5rem 0  0.5rem  0;
     color: #1a2236;
-    border: 0.516669px solid #1A2236;
+    border: 0.516669px solid #1a2236;
     list-style: none;
     text-align: center;
     width: 169px;
     height: 45px;
   }
-  
+
   .modall-img {
     text-align: center;
     width: 100%;
   }
-  
+
   .modal-p {
     margin: 0.5rem 2rem  2rem 1.5rem;
     width: 700px;
@@ -963,16 +957,16 @@ footer {
     margin-top: 5rem;
     margin-bottom: 15%;
   }
-  
+
   .modal-p > p {
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
     text-align: justify;
   }
-  
+
   .modal-button {
     display: flex;
     flex-direction: row;
@@ -981,19 +975,19 @@ footer {
     padding-bottom: 1rem;
     margin-top: 1rem;
   }
-  
+
   .live {
     width: 246px;
     height: 51px;
-    border: 1px solid #1A2236;
-    font-family: 'Poppins',sans-serif;
+    border: 1px solid #1a2236;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     text-align: center;
-    color: #1A2236;
+    color: #1a2236;
   }
-  
+
   .liveimg {
     margin-left: 4rem;
   }
@@ -1003,16 +997,16 @@ footer {
     color: #fff;
     border: 1px solid #1a2236;
   }
-  
+
   .live:checked {
     border: 2px solid #1a2236;
     background: #fff;
   }
 
-  .divdestop{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
+  .divdestop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     text-align: center;
     margin: 6rem;
     align-items: baseline;
@@ -1025,7 +1019,7 @@ footer {
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
   }
 
@@ -1453,12 +1447,11 @@ footer {
 
   .Contactme {
     display: flex;
-   flex-direction: row;
-   gap: 10rem;
+    flex-direction: row;
+    gap: 10rem;
     position: relative;
     margin-top: 6rem;
     background: #f9f9fa;
-    position: relative;
   }
 
   .contactme--desktop-img1-1 {
@@ -1575,8 +1568,8 @@ footer {
     margin-bottom: 7rem;
   }
 
-    .contactme--heading {
-     margin-left: 2rem;
+  .contactme--heading {
+    margin-left: 2rem;
   }
 
   .contactme--heading > h2 {
