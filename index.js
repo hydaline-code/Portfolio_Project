@@ -303,9 +303,7 @@ const desktoptech = [ 'HTML/CSS',  ' Ruby on Rails', 'JavaScript'];
     para.textContent= 'Lorem ipsum dolor sit amet,  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis';
     para1.textContent= 'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi';
 
-    const divdesktop = document.createElement('div');
-    popupwindow.appendChild(divdesktop);
-    divdesktop.classList.add('divdestop');
+    const divdesktop = document.querySelector('.divdestop');
     const smallbtn = document.createElement('button');
     const smallbtn1 = document.createElement('button');
     divdesktop.appendChild(smallbtn);
@@ -340,11 +338,11 @@ const desktoptech = [ 'HTML/CSS',  ' Ruby on Rails', 'JavaScript'];
       const remove_p1 = document.querySelector('.para-desk1');
       if ( remove_p1 !== null) modal_para.removeChild(remove_p1);
 
-      const arrow_desktop = document.querySelector('.divdestop');
-      const remove_arr = document.querySelector('.divdestop button');
-      if (  remove_arr !== null) arrow_desktop.removeChild( remove_arr);
-      const remove_arr1 = document.querySelector('.divdestop button');
-      if ( remove_arr1 !== null) arrow_desktop.removeChild(remove_arr1);
+      const divdesktop = document.querySelector('.divdestop');
+      const remove_arr = document.querySelector('.arrow1');
+      if (  remove_arr !== null) divdesktop.removeChild( remove_arr);
+      const remove_arr1 = document.querySelector('.arrow');
+      if ( remove_arr1 !== null) divdesktop.removeChild(remove_arr1);
     
     });
   
