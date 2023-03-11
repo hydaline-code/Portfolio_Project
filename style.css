@@ -1578,15 +1578,7 @@ footer {
     margin-bottom: 7rem;
   }
 
-  .contact-error1 {
-    display: none;
-    align-self: flex-start;
-    font-size: 13px;
-    padding: 1% 3%;
-    background-color: rgb(238, 85, 85);
-    color: #fff;
-    border-radius: 8px;
-  }
+ 
   
   .contactme--heading {
     margin-left: 2rem;
