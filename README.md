@@ -55,7 +55,7 @@
 > Improving the portfolio by working on the Project and Aboutme section.
 > Improving the portfolio by working on the  Contact-form .
 >Deployement of the project on github pages .
-> Project improvement with a popup window
+> Added a key features on popups when the user clicks on the see- project button.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
   <!------SEE LIVE DEMO ----->
