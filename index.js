@@ -164,7 +164,7 @@ const projectsupdate = [
   
 ]
 
-  
+ 
 
 projectsupdate.forEach((project) => {
   const project_1 =document.querySelector('#updates');
@@ -202,11 +202,12 @@ projectsupdate.forEach((project) => {
   div_img.appendChild(img_div);
 
   
+  
 
-  const btn = document.createElement('button');
+    const btn = document.createElement('button');
     sub_div_2.appendChild(btn);
      btn.classList.add('btn-pro_updat');
-    btn.textContent = 'See this project';
+    btn.textContent = 'See this project  \u2192';
 
     const popupwindow = document.querySelector('.popup_window');
 
@@ -215,7 +216,7 @@ projectsupdate.forEach((project) => {
       popupwindow.style.display='block';
      const pop_heading = document.querySelector('.update_heading');
     pop_heading.textContent = project.name;
-    projectTitle.textContent = projectsupdate.name;
+    
 
     const modal_image = document.querySelector('.modall-img');
     const img_modal = document.createElement('img');
@@ -243,16 +244,109 @@ projectsupdate.forEach((project) => {
     const modal_lang = document.querySelector('.modal-lang ul');
     close2.addEventListener('click', () => {
       popupwindow.style.display='none';
+
       const remove_Li = document.querySelector('.modal-lang ul li ');
       if ( remove_Li !== null) modal_lang.removeChild(remove_Li);
 
       const modal_image = document.querySelector('.modall-img');
       const remove_img = document.querySelector('.modall-img img');
       if ( remove_img !== null) modal_image.removeChild(remove_img);
+
     });
 
+  
   });
 
+   
+const desktoptech = [ 'HTML/CSS',  ' Ruby on Rails', 'JavaScript'];
+  const project_2 =document.querySelector('.project-1_name');
+  const project_22 =document.querySelector('.project-2_name');
+  const btn1 = document.createElement('button');
+  const btn2 = document.createElement('button');
+  project_2.appendChild(btn1);
+  project_22.appendChild(btn2);
+    btn1.classList.add('btn-pro_updat');
+    btn2.classList.add('btn-pro_updat');
+   btn1.textContent = 'See this project  \u2192';
+   btn2.textContent = 'See this project  \u2192';
+
+   btn1.addEventListener('click', popdesktop);
+   btn2.addEventListener('click', popdesktop);
+
+   
+
+   const modal_image = document.querySelector('.modall-img');
+   const remove_img = document.querySelector('.modall-img img');
+   if ( remove_img !== null) modal_image.removeChild(remove_img);
+
+   function popdesktop() {
+  const popupwindow = document.querySelector('.popup_window');
+
+      popupwindow.style.display='block';
+     const pop_heading = document.querySelector('.update_heading');
+     pop_heading.textContent = 'Project-desktop name goes here'
+   
+
+    const modal_image = document.querySelector('.modall-img');
+    const img_modal = document.createElement('img');
+    modal_image.appendChild(img_modal);
+    img_modal.classList.add('modal-img');
+    img_modal.src='dynamicpng/Group 105.png';
+
+    const modal_para = document.querySelector('.modal-p');
+    const para = document.createElement('p');
+    modal_para.appendChild(para);
+    const para1 = document.createElement('p');
+    para.classList.add('para-desk');
+    para1.classList.add('para-desk1');
+    modal_para.appendChild(para1);
+    para.textContent= 'Lorem ipsum dolor sit amet,  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis';
+    para1.textContent= 'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi';
+
+    const divdesktop = document.createElement('div');
+    popupwindow.appendChild(divdesktop);
+    divdesktop.classList.add('divdestop');
+    const smallbtn = document.createElement('button');
+    const smallbtn1 = document.createElement('button');
+    divdesktop.appendChild(smallbtn);
+    divdesktop.appendChild(smallbtn1);
+    smallbtn.classList.add('arrow');
+    smallbtn1.classList.add('arrow1');
+    smallbtn.textContent=' \u2190 Previous project';
+    smallbtn1.textContent='Next project  \u2192';
+
+
+      for (let i = 0; i < desktoptech.length; i += 1) {
+        const modal_lang = document.querySelector('.modal-lang ul');
+        const lang_li = document.createElement('li');
+        modal_lang.appendChild(lang_li);
+        const Li_a= document.createElement('a');
+        lang_li.appendChild(Li_a);
+         Li_a.textContent=desktoptech[i]
+      }
+      
+    }
+ 
+    const close2 = document.querySelector('.popup-close');
+    const modal_lang = document.querySelector('.modal-lang ul');
+
+    close2.addEventListener('click', () => {
+      const popupwindow = document.querySelector('.popup_window');
+      popupwindow.style.display='none';
+
+      const modal_para = document.querySelector('.modal-p ');
+      const remove_p = document.querySelector('.para-desk');
+      if ( remove_p !== null) modal_para.removeChild(remove_p);
+      const remove_p1 = document.querySelector('.para-desk1');
+      if ( remove_p1 !== null) modal_para.removeChild(remove_p1);
+
+      const arrow_desktop = document.querySelector('.divdestop');
+      const remove_arr = document.querySelector('.divdestop button');
+      if (  remove_arr !== null) arrow_desktop.removeChild( remove_arr);
+      const remove_arr1 = document.querySelector('.divdestop button');
+      if ( remove_arr1 !== null) arrow_desktop.removeChild(remove_arr1);
+    
+    });
   
  
  
